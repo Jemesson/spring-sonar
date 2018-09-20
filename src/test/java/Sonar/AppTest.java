@@ -35,4 +35,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    public void testMult() {
+		int multResult = 6;
+		int num = 2;
+		int num1 = 3; 
+		
+		App app = new App();
+		assertEquals(multResult, app.mult(num, num1));
+	}
 }
